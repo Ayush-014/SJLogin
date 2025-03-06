@@ -33,7 +33,7 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         minLength: 8,
-        unique: true
+        // unique: true
     }
 });
 
